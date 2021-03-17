@@ -44,7 +44,7 @@ class App(QMainWindow):
         super(App, self).__init__(parent)
         # super().__init__()
         label = QLabel(self)
-        pixmap = QPixmap('E:\RansomeRambo\\new.png')
+        pixmap = QPixmap('E:\CopyCat\new.png')
         label.setPixmap(pixmap)
         label.setGeometry(0, 0, 530, 400)
         self.setFixedHeight(385)
